@@ -1,73 +1,43 @@
-# React + TypeScript + Vite
+# 🍹 Mojito Awwwards Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, animation-driven website inspired by modern Awwwards-style experiences. Built with React and GSAP, this project focuses on high-impact motion design, scroll-based storytelling, and interactive UI elements.
 
-Currently, two official plugins are available:
+## ✨ Technologies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- TypeScript
+- GSAP (GreenSock)
+- Tailwind CSS
+- Vite
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Smooth, timeline-based animations powered by GSAP
+- ScrollTrigger-driven interactions for dynamic storytelling
+- SplitText animations for engaging text reveals
+- Parallax scrolling for depth and immersion
+- Pinned sections for cinematic transitions
+- Scroll-synced animations across multiple sections
+- Custom animated carousel with navigation controls
+- Image masking and reveal effects
+- Responsive layout across screen sizes
 
-## Expanding the ESLint configuration
+## 📍 The Process
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This project marks my first time working with GSAP and applying advanced animation techniques in a real project. I wanted to move beyond static interfaces and explore how motion can enhance user experience—taking inspiration from Awwwards-style websites.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+I spent time learning the fundamentals of GSAP, especially timelines and ScrollTrigger, and how they can be used together to create smooth, scroll-driven interactions. One of the main challenges was coordinating multiple animations across different sections while keeping everything performant and visually consistent.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Although this project is based on a tutorial, I used it as an opportunity to genuinely learn GSAP and turn that knowledge into a polished portfolio piece.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎯 What I Learned
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- How to integrate GSAP with React using hooks
+- Structuring complex animation timelines
+- Creating scroll-driven user experiences with ScrollTrigger
+- Managing performance in animation-heavy interfaces
+- Combining Tailwind with animation libraries for fast UI development
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+<!-- ## 🎥 Preview -->
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+<!-- Add your demo video or GIF here -->
