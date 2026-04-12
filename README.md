@@ -38,6 +38,6 @@ Although this project is based on a tutorial, I used it as an opportunity to gen
 - Managing performance in animation-heavy interfaces
 - Combining Tailwind with animation libraries for fast UI development
 
-<!-- ## 🎥 Preview -->
+## 📸 Preview
 
-<!-- Add your demo video or GIF here -->
+![Portfolio Screenshot](./public/mojito-website-screenshot.png)
